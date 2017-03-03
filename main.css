@@ -1,0 +1,79 @@
+/*******************************************
+*
+*
+*   Front end juicecast Stylesheet
+*
+********************************************
+
+/*------------------------------------------
+*   Base
+------------------------------------------*/
+
+body {
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+p{
+
+}
+
+a {
+
+}
+
+/*------------------------------------------
+*   Hero
+------------------------------------------*/
+
+.hero {
+  background-color: #3f51b5;
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/*------------------------------------------
+*   Logo
+------------------------------------------*/
+
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;;
+}
+
+/*------------------------------------------
+*   juice
+------------------------------------------*/
+
+.juice-item {
+  border-bottom: 1px solid #b6b6b6;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.juice-link {
+  color: #3f51b5;
+  font-size: 24px;
+}
+
+/*------------------------------------------
+*   container
+------------------------------------------*/
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
