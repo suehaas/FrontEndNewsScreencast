@@ -7,6 +7,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     $(this).text("Liked!")
+      .closest('.juice-item')
       .addClass("is-liked");
   });
 });
