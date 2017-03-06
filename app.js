@@ -7,7 +7,15 @@ $(document).ready(function() {
     event.preventDefault();
 
     $(this).text("Liked!")
-      .closest('.juice-item')
+      .closest(".juice-item")
       .addClass("is-liked");
   });
+
+  $(".js-add-link").on("click", function(event) {
+    event.preventDefault();
+
+    $(".js-form").toggleClass("is-visible");
+
+  });
+
 });
