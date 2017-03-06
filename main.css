@@ -33,6 +33,7 @@ p{
 
 a {
   color: #ff4081;
+  transition: 0.2s ease-in-out;
 }
 
 a:active,
@@ -122,6 +123,7 @@ a:focus {
   height: auto;
   opacity: 1;
   visibility: visible;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
 }
 
 .form-label {
